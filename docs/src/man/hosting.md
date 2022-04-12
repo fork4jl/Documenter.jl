@@ -249,7 +249,7 @@ see the previous section.
 
 When running from GitHub Actions it is possible to authenticate using
 [the GitHub Actions authentication token
-(`GITHUB_TOKEN`)](https://docs.github.com/en/actions/reference/authentication-in-a-workflow). This is done by adding
+(`GITHUB_TOKEN`)](https://docs.github.com/en/actions/security-guides/automatic-token-authentication). This is done by adding
 
 ```yaml
 GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -276,7 +276,7 @@ DOCUMENTER_KEY: ${{ secrets.DOCUMENTER_KEY }}
 
 to the configuration file, as showed in the [previous section](@ref GitHub-Actions).
 See GitHub's manual for
-[Encrypted secrets](https://docs.github.com/en/actions/reference/encrypted-secrets)
+[Encrypted secrets](https://docs.github.com/en/actions/security-guides/encrypted-secrets)
 for more information.
 
 ### Add code coverage from documentation builds
