@@ -111,13 +111,10 @@ The default preamble is currently defined in [`preamble.tex`](https://github.com
 You can override the default preamble completely by adding a custom `preamble.tex` to the `assets/` folder.
 
 There are two examples of custom preambles:
-- Custom [cover page][cover_page_src], ([make.jl][cover_page_makejl])
-- Customizing [the TOC display][toc_display_src], ([make.jl][toc_display_makejl])
-
-[cover_page_src]: https://github.com/JuliaDocs/Documenter.jl/tree/master/test/examples/src.cover_page
-[toc_display_src]: https://github.com/JuliaDocs/Documenter.jl/tree/master/test/examples/src.toc_style
-[cover_page_makejl]: https://github.com/JuliaDocs/Documenter.jl/blob/master/test/examples/make.jl#L492-L502
-[toc_display_makejl]: https://github.com/JuliaDocs/Documenter.jl/blob/master/test/examples/make.jl#L511-L521
+- Custom [cover page](https://github.com/JuliaDocs/Documenter.jl/tree/master/test/examples/src.cover_page),
+    [make.jl](https://github.com/JuliaDocs/Documenter.jl/blob/v0.27.24/test/examples/make.jl#L529-L539)
+- Customizing [the TOC display](https://github.com/JuliaDocs/Documenter.jl/tree/master/test/examples/src.toc_style),
+    [make.jl](https://github.com/JuliaDocs/Documenter.jl/blob/v0.27.24/test/examples/make.jl#L548-L558)
 
 
 ## Markdown & MkDocs
